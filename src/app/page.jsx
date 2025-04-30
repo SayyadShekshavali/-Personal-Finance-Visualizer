@@ -187,7 +187,7 @@ export default function Home() {
         </Button>
       </form>
       <div className="flex w-full flex-col ">
-        <div className=" flex flex-col justify-center h-100 lg:w-full border-0 border-black lg:-mt-0 md:-mt-0 -mt-10 rounded-xl overflow-scroll bg-transparent">
+        <div className=" flex flex-col justify-center h-100 lg:w-full border-0 border-black lg:-mt-0 md:-mt-0 -mt-0 rounded-xl overflow-scroll bg-transparent">
           {Array.isArray(transactions) && transactions.length > 0 ? (
             <>
               <p className="!text-2xl !font-bold !text-black !pt-30 text-center underline !m-4">
